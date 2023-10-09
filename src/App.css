@@ -1,10 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 .App {
   text-align: center;
+  width: 100%;
+  font-family: "Open Sans";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.expenses-table {
+  margin: 0 auto;
+  text-align: left;
+  border-spacing: 15px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.table-col-header {
+  font-weight: bold;
 }
 
 @media (prefers-reduced-motion: no-preference) {
